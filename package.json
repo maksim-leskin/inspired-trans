@@ -3,11 +3,14 @@
   "version": "1.2.1",
   "description": "",
   "main": "index.js",
+  "homework": "https://maksim-leskin.github.io/inspired-trans"
   "scripts": {
     "start": "webpack serve",
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
-    "clear": "rd /s /q dist"
+    "clear": "rd /s /q dist",
+    "predeploy": "npm run build-prod",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
