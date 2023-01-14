@@ -8,9 +8,7 @@
     "start": "webpack serve",
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
-    "clear": "rd /s /q dist",
-    "predeploy": "npm run build-prod",
-    "deploy": "gh-pages -d dist"
+    "clear": "rd /s /q dist"
   },
   "keywords": [],
   "author": "",
